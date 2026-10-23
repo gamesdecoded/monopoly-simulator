@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "game": "monopoly",
+    "title_uses_total_games": 200000000,
+    "games_per_variant": 40000000,
+    "variants_run": [
+      "control (official rules)",
+      "free_parking_jackpot",
+      "no_auctions",
+      "double_go ($400 landing on GO)",
+      "snake_eyes ($500 on double ones)"
+    ],
+    "seed": 20261021,
+    "never_ending_threshold_turns": 1500,
+    "engine": "engine.py (numba)",
+    "methods": "METHODS.md"
+  },
+  "variants": {
+    "control (official rules)": {
+      "games": 40000000,
+      "turns": {
+        "median": 147.0,
+        "mean": 156.5833253,
+        "p90": 222.0,
+        "p99": 341.0,
+        "max": 3000
+      },
+      "rounds": {
+        "median": 36.75,
+        "mean": 39.145831325
+      },
+      "truncated_at_cap": 5129,
+      "truncated_pct": 0.0128225,
+      "never_ending_threshold_turns": 1500,
+      "never_ending_pct": 0.0150325,
+      "seat_win_pct": [
+        27.347485,
+        25.795112500000002,
+        24.220745,
+        22.6366575
+      ],
+      "bankruptcies_per_game": 2.999870075,
+      "houses_per_game": 57.7731588,
+      "hotels_per_game": 9.074617375,
+      "trades_per_game": 4.626743,
+      "auctions_per_game": 4.17410585,
+      "max_free_parking_pot": 0
+    },
+    "free_parking_jackpot": {
+      "games": 40000000,
+      "turns": {
+        "median": 140.0,
+        "mean": 151.302888975,
+        "p90": 211.0,
+        "p99": 339.0,
+        "max": 3000
+      },
+      "rounds": {
+        "median": 35.0,
+        "mean": 37.82572224375
+      },
+      "truncated_at_cap": 29514,
+      "truncated_pct": 0.07378499999999999,
+      "never_ending_threshold_turns": 1500,
+      "never_ending_pct": 0.0801675,
+      "seat_win_pct": [
+        27.59142,
+        25.898464999999998,
+        24.15066,
+        22.359455
+      ],
+      "bankruptcies_per_game": 2.99925395,
+      "houses_per_game": 66.63307605,
+      "hotels_per_game": 10.8207306,
+      "trades_per_game": 4.87516215,
+      "auctions_per_game": 3.876086075,
+      "max_free_parking_pot": 30160
+    },
+    "no_auctions": {
+      "games": 40000000,
+      "turns": {
+        "median": 155.0,
+        "mean": 165.39740465,
+        "p90": 237.0,
+        "p99": 364.0,
+        "max": 3000
+      },
+      "rounds": {
+        "median": 38.75,
+        "mean": 41.3493511625
+      },
+      "truncated_at_cap": 5063,
+      "truncated_pct": 0.0126575,
+      "never_ending_threshold_turns": 1500,
+      "never_ending_pct": 0.015057499999999998,
+      "seat_win_pct": [
+        27.283089999999998,
+        25.685934999999997,
+        24.1982,
+        22.832774999999998
+      ],
+      "bankruptcies_per_game": 2.999872675,
+      "houses_per_game": 57.585045575,
+      "hotels_per_game": 9.420410325,
+      "trades_per_game": 4.447422075,
+      "auctions_per_game": 0.0,
+      "max_free_parking_pot": 0
+    },
+    "double_go ($400 landing on GO)": {
+      "games": 40000000,
+      "turns": {
+        "median": 142.0,
+        "mean": 152.825217,
+        "p90": 216.0,
+        "p99": 342.0,
+        "max": 3000
+      },
+      "rounds": {
+        "median": 35.5,
+        "mean": 38.20630425
+      },
+      "truncated_at_cap": 16646,
+      "truncated_pct": 0.041615,
+      "never_ending_threshold_turns": 1500,
+      "never_ending_pct": 0.047857500000000004,
+      "seat_win_pct": [
+        27.644817500000002,
+        25.90863,
+        24.116475,
+        22.3300775
+      ],
+      "bankruptcies_per_game": 2.999578075,
+      "houses_per_game": 63.814705575,
+      "hotels_per_game": 10.203717675,
+      "trades_per_game": 4.8079842,
+      "auctions_per_game": 3.9639541,
+      "max_free_parking_pot": 0
+    },
+    "snake_eyes ($500 on double ones)": {
+      "games": 40000000,
+      "turns": {
+        "median": 136.0,
+        "mean": 149.36207035,
+        "p90": 210.0,
+        "p99": 352.0,
+        "max": 3000
+      },
+      "rounds": {
+        "median": 34.0,
+        "mean": 37.3405175875
+      },
+      "truncated_at_cap": 44502,
+      "truncated_pct": 0.11125499999999999,
+      "never_ending_threshold_turns": 1500,
+      "never_ending_pct": 0.12424,
+      "seat_win_pct": [
+        27.823227499999998,
+        25.951005,
+        24.0471975,
+        22.17857
+      ],
+      "bankruptcies_per_game": 2.998868925,
+      "houses_per_game": 69.7090177,
+      "hotels_per_game": 11.474528575,
+      "trades_per_game": 4.958409825,
+      "auctions_per_game": 3.3903614,
+      "max_free_parking_pot": 0
+    }
+  }
+}

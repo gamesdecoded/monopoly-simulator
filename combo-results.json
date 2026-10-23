@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "game": "monopoly",
+    "title_uses_total_games": 10000000,
+    "games_per_variant": 10000000,
+    "variants_run": [
+      "stacked (jackpot + no auctions + $400 GO)"
+    ],
+    "seed": 20261022,
+    "never_ending_threshold_turns": 1500,
+    "engine": "engine.py (numba)",
+    "methods": "METHODS.md"
+  },
+  "variants": {
+    "stacked (jackpot + no auctions + $400 GO)": {
+      "games": 10000000,
+      "turns": {
+        "median": 146.0,
+        "mean": 162.6381616,
+        "p90": 227.0,
+        "p99": 387.0,
+        "max": 3000
+      },
+      "rounds": {
+        "median": 36.5,
+        "mean": 40.6595404
+      },
+      "truncated_at_cap": 16429,
+      "truncated_pct": 0.16429000000000002,
+      "never_ending_threshold_turns": 1500,
+      "never_ending_pct": 0.18139,
+      "seat_win_pct": [
+        27.34969,
+        25.71642,
+        24.15309,
+        22.7808
+      ],
+      "bankruptcies_per_game": 2.9983423,
+      "houses_per_game": 73.3986132,
+      "hotels_per_game": 12.4419301,
+      "trades_per_game": 4.9994342,
+      "auctions_per_game": 0.0,
+      "max_free_parking_pot": 28905
+    }
+  }
+}

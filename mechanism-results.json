@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "game": "monopoly",
+    "batch": "mechanism-stats",
+    "games_per_variant": 2000000,
+    "variants_run": [
+      "control (official rules)",
+      "free_parking_jackpot",
+      "no_auctions",
+      "double_go ($400 landing on GO)",
+      "snake_eyes ($500 on double ones)"
+    ],
+    "seed": 20261022,
+    "bots": "standard (non-cautious)",
+    "engine": "engine.py (numba)"
+  },
+  "variants": {
+    "control (official rules)": {
+      "games": 2000000,
+      "turns": {
+        "median": 147.0,
+        "mean": 156.623351
+      },
+      "first_monopoly": {
+        "median_turn": 25.0,
+        "mean_turn": 27.4831735,
+        "never_share_pct": 0.0
+      },
+      "rent_per_turn": 60.55081611681262,
+      "injected_per_game": 0.0,
+      "recycled_per_game": 0.0,
+      "nightmare_games": {
+        "count": 310,
+        "avg_cash_per_survivor": 43068.95008605852,
+        "avg_houses_per_survivor": 16.14974182444062,
+        "avg_hotels_per_survivor": 0.6867469879518072
+      }
+    },
+    "free_parking_jackpot": {
+      "games": 2000000,
+      "turns": {
+        "median": 140.0,
+        "mean": 151.382495
+      },
+      "first_monopoly": {
+        "median_turn": 25.0,
+        "mean_turn": 27.2968145,
+        "never_share_pct": 0.0
+      },
+      "rent_per_turn": 69.65566147856131,
+      "injected_per_game": 0.0,
+      "recycled_per_game": 1608.5986075,
+      "nightmare_games": {
+        "count": 1669,
+        "avg_cash_per_survivor": 66165.26879059697,
+        "avg_houses_per_survivor": 16.748840086606865,
+        "avg_hotels_per_survivor": 0.4918032786885246
+      }
+    },
+    "no_auctions": {
+      "games": 2000000,
+      "turns": {
+        "median": 155.0,
+        "mean": 165.433749
+      },
+      "first_monopoly": {
+        "median_turn": 25.0,
+        "mean_turn": 28.3515925,
+        "never_share_pct": 0.0
+      },
+      "rent_per_turn": 58.99323555497736,
+      "injected_per_game": 0.0,
+      "recycled_per_game": 0.0,
+      "nightmare_games": {
+        "count": 292,
+        "avg_cash_per_survivor": 42906.40186915888,
+        "avg_houses_per_survivor": 16.381308411214953,
+        "avg_hotels_per_survivor": 0.7757009345794392
+      }
+    },
+    "double_go ($400 landing on GO)": {
+      "games": 2000000,
+      "turns": {
+        "median": 142.0,
+        "mean": 152.8125455
+      },
+      "first_monopoly": {
+        "median_turn": 25.0,
+        "mean_turn": 27.32547,
+        "never_share_pct": 0.0
+      },
+      "rent_per_turn": 66.88113006402344,
+      "injected_per_game": 1051.6777,
+      "recycled_per_game": 0.0,
+      "nightmare_games": {
+        "count": 941,
+        "avg_cash_per_survivor": 53502.19336706014,
+        "avg_houses_per_survivor": 16.65036537380551,
+        "avg_hotels_per_survivor": 0.6548622821810005
+      }
+    },
+    "snake_eyes ($500 on double ones)": {
+      "games": 2000000,
+      "turns": {
+        "median": 136.0,
+        "mean": 149.4857065
+      },
+      "first_monopoly": {
+        "median_turn": 25.0,
+        "mean_turn": 27.068706,
+        "never_share_pct": 0.0
+      },
+      "rent_per_turn": 76.11154701938008,
+      "injected_per_game": 2405.53225,
+      "recycled_per_game": 0.0,
+      "nightmare_games": {
+        "count": 2537,
+        "avg_cash_per_survivor": 65907.53532440783,
+        "avg_houses_per_survivor": 16.93738414006179,
+        "avg_hotels_per_survivor": 0.6834191555097837
+      }
+    }
+  }
+}

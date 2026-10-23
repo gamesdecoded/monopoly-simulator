@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "game": "monopoly",
+    "batch": "cautious-bot-stress-test",
+    "games_per_variant": 3000000,
+    "variants_run": [
+      "control (official rules)",
+      "free_parking_jackpot",
+      "no_auctions",
+      "double_go ($400 landing on GO)",
+      "snake_eyes ($500 on double ones)"
+    ],
+    "seed": 20261022,
+    "bots": "cautious ($800 build reserve, max 3 houses/property, never bid above face value)",
+    "never_ending_threshold_turns": 1500,
+    "engine": "engine.py (numba)"
+  },
+  "variants": {
+    "control (official rules)": {
+      "games": 3000000,
+      "turns": {
+        "median": 272.0,
+        "mean": 363.25513233333334
+      },
+      "never_ending_per_10000": 236.50666666666666,
+      "never_ending_pct": 2.365066666666667,
+      "truncated_pct": 1.8152000000000001,
+      "houses_per_game": 40.206747,
+      "seat_win_pct": [
+        28.819166666666668,
+        26.007033333333336,
+        23.5177,
+        21.656100000000002
+      ]
+    },
+    "free_parking_jackpot": {
+      "games": 3000000,
+      "turns": {
+        "median": 255.0,
+        "mean": 469.343279
+      },
+      "never_ending_per_10000": 676.3933333333333,
+      "never_ending_pct": 6.763933333333333,
+      "truncated_pct": 5.767766666666667,
+      "houses_per_game": 41.499796,
+      "seat_win_pct": [
+        28.668866666666666,
+        25.912000000000003,
+        23.627733333333335,
+        21.7914
+      ]
+    },
+    "no_auctions": {
+      "games": 3000000,
+      "turns": {
+        "median": 284.0,
+        "mean": 377.982273
+      },
+      "never_ending_per_10000": 247.02,
+      "never_ending_pct": 2.4702,
+      "truncated_pct": 1.8826333333333334,
+      "houses_per_game": 40.042296666666665,
+      "seat_win_pct": [
+        27.012733333333333,
+        25.518366666666665,
+        24.298633333333335,
+        23.170266666666667
+      ]
+    },
+    "double_go ($400 landing on GO)": {
+      "games": 3000000,
+      "turns": {
+        "median": 264.0,
+        "mean": 422.77008233333333
+      },
+      "never_ending_per_10000": 470.6766666666667,
+      "never_ending_pct": 4.706766666666667,
+      "truncated_pct": 3.7596333333333334,
+      "houses_per_game": 41.378901666666664,
+      "seat_win_pct": [
+        28.825166666666668,
+        26.026,
+        23.529966666666667,
+        21.618866666666666
+      ]
+    },
+    "snake_eyes ($500 on double ones)": {
+      "games": 3000000,
+      "turns": {
+        "median": 255.0,
+        "mean": 509.20897633333334
+      },
+      "never_ending_per_10000": 821.7733333333334,
+      "never_ending_pct": 8.217733333333333,
+      "truncated_pct": 6.886933333333333,
+      "houses_per_game": 41.689235333333336,
+      "seat_win_pct": [
+        28.500533333333333,
+        25.8847,
+        23.688033333333333,
+        21.926733333333335
+      ]
+    }
+  }
+}
