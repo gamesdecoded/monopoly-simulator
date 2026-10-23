@@ -15,15 +15,15 @@ players. Every number in the video comes from this code. Run it yourself.
 4. **Double GO ($400)** — landing exactly on GO pays $400 total.
 5. **Snake Eyes ($500)** — rolling double ones pays $500 from the bank.
 
-## Results (N games per variant — filled in after the production run)
+## Results (40M games per variant, 200M total)
 
-| Variant | Median game length | Never-ending rate | Seat win % |
+| Variant | Median game length | Never-ending rate (>1,500 turns) | Seat win % |
 |---|---|---|---|
-| Control | — | — | — |
-| Free Parking jackpot | — | — | — |
-| No auctions | — | — | — |
-| Double GO ($400) | — | — | — |
-| Snake Eyes ($500) | — | — | — |
+| Control | 147 turns | 1 in 6,652 | 27.3 / 25.8 / 24.2 / 22.6 |
+| Free Parking jackpot | 140 turns | 1 in 1,247 | 27.6 / 25.9 / 24.2 / 22.4 |
+| No auctions | 155 turns | 1 in 6,641 | 27.3 / 25.7 / 24.2 / 22.8 |
+| Double GO ($400) | 142 turns | 1 in 2,090 | 27.6 / 25.9 / 24.1 / 22.3 |
+| Snake Eyes ($500) | 136 turns | 1 in 805 | 27.8 / 26.0 / 24.0 / 22.2 |
 
 See `METHODS.md` for the full methodology: bot logic, the turn cap and
 never-ending definition, validation, and limitations (no human-like
@@ -38,8 +38,9 @@ negotiation — same disclosure as Perfect Play Sim).
   games/variant, zero crashes), (c) throughput benchmark + recommended run size
 - `run_full.py` — the production run: N games per variant, checkpointed,
   writes `results.json`
-- `results.json` — validation numbers now; full production results after the
-  approved production run
+- `results.json` — full production results: 40M games per variant
+  (200M total), plus batch-2 files (`mechanism-results.json`,
+  `cautious-results.json`, `combo-results.json`)
 - `METHODS.md` — rules, bot logic, limitations
 
 ## Run it
