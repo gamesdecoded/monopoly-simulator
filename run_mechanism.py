@@ -177,7 +177,7 @@ def main():
         }
 
     results = {
-        "meta": {
+        "info": {
             "game": "monopoly",
             "batch": "mechanism-stats",
             "games_per_variant": args.games,

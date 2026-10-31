@@ -1,5 +1,5 @@
 {
-  "meta": {
+  "info": {
     "game": "monopoly",
     "batch": "cautious-bot-stress-test",
     "games_per_variant": 3000000,

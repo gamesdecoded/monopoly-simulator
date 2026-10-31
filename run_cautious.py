@@ -149,7 +149,7 @@ def main():
         }
 
     results = {
-        "meta": {
+        "info": {
             "game": "monopoly",
             "batch": "cautious-bot-stress-test",
             "games_per_variant": args.games,

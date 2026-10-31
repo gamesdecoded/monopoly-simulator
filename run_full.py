@@ -187,7 +187,7 @@ def main():
         }
 
     results = {
-        "meta": {
+        "info": {
             "game": "monopoly",
             "title_uses_total_games": total_games,
             "games_per_variant": args.games,

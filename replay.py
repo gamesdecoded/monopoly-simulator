@@ -131,7 +131,7 @@ def main():
     traj = traj[:turns]
 
     data = {
-        "meta": {
+        "info": {
             "game": "monopoly",
             "purpose": "cold-open nightmare replay visual",
             "seed": seed,

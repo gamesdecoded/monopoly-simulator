@@ -51,7 +51,7 @@ python run_full.py --games 500000  # production run (checkpointed, resumable)
 ```
 
 The video title uses the REAL total games run (sum over all 5 variants),
-reported in `results.json` under `meta.title_uses_total_games`.
+reported in `results.json` under `info.title_uses_total_games`.
 
 ## Validation
 
